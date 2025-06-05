@@ -6,6 +6,7 @@ artifacts/
 cache/
 typechain/
 typechain-types/
+ignition/deployments/
 
 # Environment variables and secrets
 .env

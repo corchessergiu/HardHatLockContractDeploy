@@ -46,13 +46,13 @@ npm i dotenv
 
 #### Mainnet
 ```
-npx hardhat ignition deploy ./ignition/modules/Lock.js --network ICBMainnet
+npx hardhat ignition deploy ./ignition/modules/Counter.js --network ICBMainnet
 ```
 
 
 #### Testnet
 ```
-npx hardhat ignition deploy ./ignition/modules/Lock.js --network ICBTestnet
+npx hardhat ignition deploy ./ignition/modules/Counter.js --network ICBTestnet
 ```
 
 4. You should see the addresses after running the above commands.

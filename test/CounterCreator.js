@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
-describe.only("CounterCreator Tests", function () {
+describe("CounterCreator Tests", function () {
   const INITIAL_NUMBER = 42;
   const VALUE_SENT = ethers.parseEther("1");
 

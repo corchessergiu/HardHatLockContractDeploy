@@ -1,4 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("hardhat-contract-sizer");
 require("dotenv").config();
 
 module.exports = {
@@ -7,10 +8,13 @@ module.exports = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 1000,
+        runs: 200,
       },
       evmVersion: "paris",
     },
+  },
+  gasReporter: {
+    enabled: true,
   },
   networks: {
     ICBTestnet: {
